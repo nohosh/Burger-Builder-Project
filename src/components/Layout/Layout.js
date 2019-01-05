@@ -6,7 +6,7 @@ const layout = ( props ) => (
     <>
         <div> Tooolbar, Sidedrawer,Backdrop</div>
         <main className={classes.Content}>
-            {props.children}
+           {props.children}
         </main>
     </>
 );
